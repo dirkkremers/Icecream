@@ -1,13 +1,12 @@
 import processing.pdf.*;
 
 void setup() {
-  size(600, 600);     //, PDF, "icecone.pdf"
+  size(600, 600);   
   beginRecord(PDF, "Icecorn.pdf");
   background(255);
 
   noStroke();
   noLoop();
-
 
 }
 
@@ -38,6 +37,5 @@ void draw() {
   }
 
   endRecord();
-  //exit();
 }
 
